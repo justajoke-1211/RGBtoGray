@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\median
+vrgb_to_gray
+Z1 !s100 oTRAFGojb66iYTagXPcd93
+Z2 I0VKTlA[<2cT9>ad40EZB=1
+Z3 Vji@k9iJAXAQV4kQ7PJ9`D0
+Z4 dE:\RGBtoGray
+Z5 w1670924692
+Z6 8E:/RGBtoGray/rgb_to_gray.v
+Z7 FE:/RGBtoGray/rgb_to_gray.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s108 1671094826.243000
+Z10 !s107 E:/RGBtoGray/rgb_to_gray.v|
+Z11 !s90 -reportprogress|300|-work|work|E:/RGBtoGray/rgb_to_gray.v|
+Z12 o-work work -O0
+!i10b 1
+!s85 0
+!s101 -O0
+vrgb_to_gray_controller
+Z13 !s100 ZWmD=El^RTnbKckjIC<<a2
+Z14 IR=2kbnCWOM3nnFLNbof=a1
+Z15 VXag0b0454d;7_bmz<DDER3
+R4
+R5
+R6
+R7
+L0 33
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vrgb_to_gray_datapath
+Z16 !s100 Q>3]88aHTYC:95a76fBB00
+Z17 IbcRafFIh6^4JPgG<elCF00
+Z18 V<108NbzhN8XNTSc@K_gO40
+R4
+R5
+R6
+R7
+L0 12
+R8
+r1
+31
+R9
+R10
+R11
+R12
+!i10b 1
+!s85 0
+!s101 -O0
+vtestbench_rgb_to_gray
+!i10b 1
+!s100 z2Lb1TIgnC<@TWiZzF__<3
+Ik:Dd;NlJ6NE^QiJVTo@VG3
+Z19 VLC?H0QUe4WY`dePg2z5>:2
+R4
+w1671088496
+8E:/RGBtoGray/testbench_rgb_to_gray.v
+FE:/RGBtoGray/testbench_rgb_to_gray.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1671094826.598000
+!s107 E:/RGBtoGray/testbench_rgb_to_gray.v|
+!s90 -reportprogress|300|-work|work|E:/RGBtoGray/testbench_rgb_to_gray.v|
+!s101 -O0
+R12

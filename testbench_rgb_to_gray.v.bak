@@ -1,0 +1,7 @@
+module testbench_rgb_to_gray ();
+	reg [7:0] R,G,B;
+	wire gray_out; 
+	reg [7:0] mem [0: 7084032]; 
+	rgb_to_gray (R,G,B , gray_out);
+	
+endmodule

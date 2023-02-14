@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\RGBtoGray\simulation\qsim
+vrgb_to_gray
+Z1 I2T;AKWBl2I_>i2[VVFgG@1
+Z2 VL]ckz5@B1E=NEQzTHGkF>0
+Z3 dE:\RGBtoGray\simulation\qsim
+Z4 w1669912456
+Z5 8rgb_to_gray.vo
+Z6 Frgb_to_gray.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 AQ:b0JED>YA?kD;mNMk041
+!s85 0
+Z10 !s108 1669912460.774000
+Z11 !s107 rgb_to_gray.vo|
+Z12 !s90 -work|work|rgb_to_gray.vo|
+!s101 -O0
+vrgb_to_gray_vlg_check_tst
+!i10b 1
+!s100 ]4>0=6=OFgeQek^8hNcB;2
+IA<zaZ>eo:VokVCKlU6AW70
+VA?VL07d=_Z>J^D2Pm1@4^0
+R3
+Z13 w1669912455
+Z14 8rgb_to_gray.vt
+Z15 Frgb_to_gray.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z16 !s108 1669912460.965000
+Z17 !s107 rgb_to_gray.vt|
+Z18 !s90 -work|work|rgb_to_gray.vt|
+!s101 -O0
+R8
+vrgb_to_gray_vlg_sample_tst
+!i10b 1
+!s100 C]TFMhVck]BLj[mcRR<U?0
+I4USk=kB05?Q_2[jMg_OId2
+VYQo7aOg5d4]XNchkhABmB3
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vrgb_to_gray_vlg_vec_tst
+!i10b 1
+!s100 M_Ha>f3mX=j_91ga2:0Bg1
+I=3O6Be>C:lUKD1_?An87h2
+VTz:T00NXPGLI4K5Mz8jSh1
+R3
+R13
+R14
+R15
+L0 281
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8

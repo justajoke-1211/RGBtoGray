@@ -1,0 +1,6 @@
+module rgb_to_gray (R,G,B , gray);
+	input [7:0] R,G,B;
+	output [7:0] gray;
+	input 
+
+endmodule

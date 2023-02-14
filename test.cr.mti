@@ -1,0 +1,17 @@
+E:/RGBtoGray/testbench_rgb_to_gray.v {1 {vlog -work work E:/RGBtoGray/testbench_rgb_to_gray.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module testbench_rgb_to_gray
+
+Top level modules:
+	testbench_rgb_to_gray
+
+} {} {}} E:/RGBtoGray/rgb_to_gray.v {1 {vlog -work work E:/RGBtoGray/rgb_to_gray.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module rgb_to_gray
+-- Compiling module rgb_to_gray_datapath
+-- Compiling module rgb_to_gray_controller
+
+Top level modules:
+	rgb_to_gray
+
+} {} {}}

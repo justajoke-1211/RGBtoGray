@@ -1,0 +1,90 @@
+|rgb_to_gray
+clk => clk.IN1
+reset => reset.IN1
+R[0] => R[0].IN1
+R[1] => R[1].IN1
+R[2] => R[2].IN1
+R[3] => R[3].IN1
+R[4] => R[4].IN1
+R[5] => R[5].IN1
+R[6] => R[6].IN1
+R[7] => R[7].IN1
+G[0] => G[0].IN1
+G[1] => G[1].IN1
+G[2] => G[2].IN1
+G[3] => G[3].IN1
+G[4] => G[4].IN1
+G[5] => G[5].IN1
+G[6] => G[6].IN1
+G[7] => G[7].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+out[0] <= rgb_to_gray_datapath:datapath.out
+out[1] <= rgb_to_gray_datapath:datapath.out
+out[2] <= rgb_to_gray_datapath:datapath.out
+out[3] <= rgb_to_gray_datapath:datapath.out
+out[4] <= rgb_to_gray_datapath:datapath.out
+out[5] <= rgb_to_gray_datapath:datapath.out
+out[6] <= rgb_to_gray_datapath:datapath.out
+out[7] <= rgb_to_gray_datapath:datapath.out
+done <= rgb_to_gray_controller:controller.done
+
+
+|rgb_to_gray|rgb_to_gray_controller:controller
+clk => current_state[0].CLK
+clk => current_state[1].CLK
+clk => current_state[2].CLK
+reset => current_state.OUTPUTSELECT
+out_e <= out_e$latch.DB_MAX_OUTPUT_PORT_TYPE
+done <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|rgb_to_gray|rgb_to_gray_datapath:datapath
+out_e => buff[0].OE
+out_e => buff[1].OE
+out_e => buff[2].OE
+out_e => buff[3].OE
+out_e => buff[4].OE
+out_e => buff[5].OE
+out_e => buff[6].OE
+out_e => buff[7].OE
+R[0] => Mult0.IN47
+R[1] => Mult0.IN46
+R[2] => Mult0.IN45
+R[3] => Mult0.IN44
+R[4] => Mult0.IN43
+R[5] => Mult0.IN42
+R[6] => Mult0.IN41
+R[7] => Mult0.IN40
+G[0] => Mult1.IN47
+G[1] => Mult1.IN46
+G[2] => Mult1.IN45
+G[3] => Mult1.IN44
+G[4] => Mult1.IN43
+G[5] => Mult1.IN42
+G[6] => Mult1.IN41
+G[7] => Mult1.IN40
+B[0] => Mult2.IN47
+B[1] => Mult2.IN46
+B[2] => Mult2.IN45
+B[3] => Mult2.IN44
+B[4] => Mult2.IN43
+B[5] => Mult2.IN42
+B[6] => Mult2.IN41
+B[7] => Mult2.IN40
+out[0] <= buff[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= buff[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= buff[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= buff[3].DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= buff[4].DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= buff[5].DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= buff[6].DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= buff[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

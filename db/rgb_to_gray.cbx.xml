@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="rgb_to_gray">
+		<CBX_INST_ENTRY INSTANCE_NAME="|rgb_to_gray|rgb_to_gray_datapath:datapath|lpm_mult:Mult0" CBX_FILE_NAME="mult_dct.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rgb_to_gray|rgb_to_gray_datapath:datapath|lpm_mult:Mult1" CBX_FILE_NAME="mult_6ct.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rgb_to_gray|rgb_to_gray_datapath:datapath|lpm_mult:Mult2" CBX_FILE_NAME="mult_9ct.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
